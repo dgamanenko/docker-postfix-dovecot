@@ -18,7 +18,7 @@ docker build -t postfix .
 ## docker run
 
 ```
-sudo docker run -i -t -e APP_HOST=mail.raccongang.com -e DB_NAME=postfix -e DB_USER=root -e DB_PASSWORD=password -p 25:25 -p 110:110 -p 143:143 -p 995:995 -p 587:587 -v /var/run/mysqld/:/var/run/mysqld -v /home/vmail:/home/vmail/ dmtr/docker-postfix-dovecot
+sudo docker run -i -t -e APP_HOST=mail.raccoongang.com -e DB_NAME=postfix -e DB_USER=root -e DB_PASSWORD=password -p 25:25 -p 110:110 -p 143:143 -p 995:995 -p 587:587 -v /var/run/mysqld/:/var/run/mysqld -v /home/vmail:/home/vmail/ dmtr/docker-postfix-dovecot
 
 ```
 
